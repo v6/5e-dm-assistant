@@ -25,6 +25,7 @@
 6. Virtual Environment Prep (if you want [venv](https://bfy.tw/Qwyh) goodness):
 
     #LINUX
+    sudo apt-get install python3-tk # Or if that doesn't work, sudo yum install python3-tk
     python3 -m venv dm-env
     source dm-env/bin/activate
     pip install -r requirements.txt

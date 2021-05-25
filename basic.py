@@ -11,7 +11,10 @@ from operator import getitem
 from collections import defaultdict
 from collections import defaultdict
 import pprint
-import tkinter as tk
+try:
+    import tkinter as tk
+except:
+    print("tkinter not found, install python3-tk package")
 import argparse
 import re
 import shlex
